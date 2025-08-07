@@ -8,13 +8,13 @@ package tp;
  *
  * @author PC
  */
-public class ejercicio6 {
-    /**
-     * @param args the command line arguments
-     */
+public class pruebaEscritorio {
+
     public static void main(String[] args) {
-        // TODO code application logic here
-        
-        System.out.print("Nombre: Juan Perez\n\nEdad: 30 años\n\nDireccion\"Calle falsa 123\"");
+        int a = 5;
+        int b = 2;
+        int resultado = a / b;
+        System.out.println("Resultado: " + resultado);
     }
+
 }

@@ -20,11 +20,11 @@ public class ejercicio5 {
         
         int numero1, numero2;
         
-        System.out.println("Ingrese el primer número: ");
+        System.out.print("Ingrese el primer número: ");
         numero1 = sc.nextInt();
-        System.out.println("Ingrese el segundo número: ");
+        System.out.print("Ingrese el segundo número: ");
         numero2 = sc.nextInt();
         
-        System.out.println("Operaciones\n" + "Suma: " + (numero1 + numero2) + "\nResta: " + (numero1 - numero2) + "\nMultiplicacion: " + (numero1 * numero2)+ "\nDivision: " + (numero1 / numero2));
+        System.out.print("Operaciones\n" + "Suma: " + (numero1 + numero2) + "\nResta: " + (numero1 - numero2) + "\nMultiplicacion: " + (numero1 * numero2)+ "\nDivision: " + (numero1 / numero2));
     }
 }

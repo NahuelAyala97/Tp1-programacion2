@@ -19,12 +19,12 @@ public class ejercicio4 {
         Scanner sc = new Scanner(System.in);
         String nombre,apellido;
         
-        System.out.println("Ingrese su nombre: ");
+        System.out.print("Ingrese su nombre: ");
         nombre = sc.nextLine();
         
-        System.out.println("Ingrese su apellido: ");
+        System.out.print("Ingrese su apellido: ");
         apellido = sc.nextLine();
         
-        System.out.println("Nombre: " + nombre + " Apellido: " + apellido);
+        System.out.print("Nombre: " + nombre + " Apellido: " + apellido);
     }
 }

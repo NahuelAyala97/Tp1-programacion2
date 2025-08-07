@@ -8,13 +8,15 @@ package tp;
  *
  * @author PC
  */
-public class ejercicio7 {
-    /**
-     * @param args the command line arguments
-     */
+import java.util.Scanner;
+
+public class ErrorEjemplo {
+
     public static void main(String[] args) {
-        // TODO code application logic here
-        
-        System.out.println("Nombre: Juan Perez\n\nEdad: 30 años\n\nDireccion\"Calle falsa 123\"");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingresa tu nombre: ");
+        String nombre = scanner.nextLine(); 
+        System.out.println("Hola, " + nombre);
     }
 }
+
